@@ -43,7 +43,10 @@ main{
 }
 h1{
     text-align: center;
-    font-size: 44px;
+    font-size: 126px;
+}
+h2{
+    font-size: 64px;
 }
 .profile-img{
     height: 20rem;
@@ -85,4 +88,20 @@ section{
     width: 100%;
     background-color: gray;
     margin: 1rem;
+}
+
+@media all and (max-width:480px) {
+    h1{
+        font-size: 44px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    nav{
+        width: 15rem;
+
+    }
+    a{
+        font-size: 10px;
+    }
 }
